@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.alto {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.titolo {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.riga {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.talpa {
+    height: 70px; 
+    width: 100px; 
+    border-radius: 50%;
+    background-color: rgb(37, 37, 37);
+    margin: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.attivo{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/talupa.png);
+}
+
+.risultato {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#burtone {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+
+.gioco {
+    margin-top: 195px;
+}
+
+body {
+    background-image: url('../img/tarpa.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#messaggio {
+    margin-top: 10px;
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+}
+
+#punteggio {
+    margin-top: 20px;
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+#burtone, #rigioca {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 20px;
+    margin-top: -10px;
+    display: inline-block;
+}
+
+
