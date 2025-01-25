@@ -29,7 +29,9 @@
 }
 
 .attivo{
-    background-color: red;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/talupa.png);
 }
 
 .risultato {
@@ -77,3 +79,17 @@ body {
     font-style: normal;
     font-size: 12px;
 }
+
+#burtone, #rigioca {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 20px;
+    margin-top: -10px;
+    display: inline-block;
+}
+
+
